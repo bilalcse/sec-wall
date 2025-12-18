@@ -8,3 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Actions works"
+      
+permissions:
+  contents: read
+  security-events: write
