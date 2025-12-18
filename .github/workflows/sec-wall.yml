@@ -1,0 +1,10 @@
+name: CI Security Pipeline
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Actions works"
